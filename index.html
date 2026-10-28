@@ -257,7 +257,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
       <a href="#diagrama">Flow diagram</a>
     </nav>
     <span class="student" title="Student">Nicolas Clavijo · 10E</span>
-    <a class="ai-link" id="aiLinkTop" href="#" target="_blank" rel="noopener noreferrer">
+    <a class="ai-link" id="aiLinkTop" href="ai-conversation.html" target="_blank" rel="noopener noreferrer">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M8.5 10.5h7"/></svg>
       AI conversation
     </a>
@@ -414,9 +414,9 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
       <div>
         <p class="eyebrow">AI development record</p>
         <h3 style="margin-top:4px">How this page was built.</h3>
-        <p class="muted" style="margin-top:6px;font-size:15px">This page was developed in a conversation with Claude (AI). The link opens the full conversation used to create it.</p>
+        <p class="muted" style="margin-top:6px;font-size:15px">This page was developed in a conversation with Claude (AI). The link opens the record of the conversation used to create it.</p>
       </div>
-      <a class="btn btn-primary" id="aiLinkCard" href="#" target="_blank" rel="noopener noreferrer">View the AI conversation
+      <a class="btn btn-primary" id="aiLinkCard" href="ai-conversation.html" target="_blank" rel="noopener noreferrer">View the AI conversation
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
     </div>
   </div>
@@ -426,7 +426,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 <footer>
   <div class="wrap">
     <span><b style="color:var(--ink);font-family:var(--f-display);font-size:20px;font-weight:400">decide</b> · Global Economics, Grade 10 · Criterion 10 · Nicolas Clavijo, 10E</span>
-    <span><a id="aiLinkFoot" href="#" target="_blank" rel="noopener noreferrer">AI conversation used to develop this page</a></span>
+    <span><a id="aiLinkFoot" href="ai-conversation.html" target="_blank" rel="noopener noreferrer">AI conversation used to develop this page</a></span>
   </div>
 </footer>
 
@@ -435,7 +435,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 "use strict";
 
 /* ===== Link to the AI conversation (requirement 4) ===== */
-const AI_CHAT_URL = "https://claude.ai/share/PASTE-YOUR-LINK-HERE";
+const AI_CHAT_URL = "ai-conversation.html";
 
 const TOL = 1e-9;
 const MAX_ALTS = 12, MAX_STATES = 8;
